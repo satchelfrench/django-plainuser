@@ -74,7 +74,7 @@ class AbstractPlainUser(AbstractBaseUser, PermissionsMixin):
         abstract = True
 
     def clean(self):
-        super(AbstractUser, self).clean()
+        super(AbstractPlainUser, self).clean()
         self.email = self.__class__.objects.normalize_email(self.email)
 
     def get_full_name(self):
