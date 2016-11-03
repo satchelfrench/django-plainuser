@@ -11,3 +11,7 @@ This package is not available under PyPi, because it is assumed this will be wan
 * (2) Add to settings.py
 * (3) Add AUTH_USER_MODEL
 * (4) Reference the [django documentation](https://docs.djangoproject.com/en/dev/topics/auth/customizing/#substituting-a-custom-user-model).
+
+# LICENSE
+
+Open Source through BSD-3 (same as django)
